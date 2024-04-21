@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #ccc;
+}
+
+input[type="text"]:focus {
+    background-color: #ddd;
+}
+
+button {
+    padding: 8px 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cc00; /* Cambio de color a verde */
+    color: black; /* Texto en negro */
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    width: 48%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.word {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.word:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.word h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.word h6 {
+    font-size: 16px;
+    color: #777;
+    font-style: italic; /* Agregamos cursiva */
+}
+
+.word h3 {
+    font-size: 18px;
+}
+
+.word p {
+    margin-top: 10px;
+}
+
+.likeBtn {
+    background-color: gold; /* Cambio de color a dorado */
+    color: black; /* Texto en negro */
+}
+
+.likeBtn:hover {
+    background-color: #ffd700; /* Cambio de color a dorado claro */
+}
+
+.define {
+
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    flex: 0 0 48%;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.define button {
+    background-color: #00cc00; /* Cambio de color a verde */
+    border: 2px solid black; /* Borde negro */
+    color: black; /* Texto en negro */
+    padding: 5px 10px; /* Reducción de espacio interno */
+}
+
+.define a {
+    color: blue; /* Color azul */
+    text-decoration: underline; /* Subrayado */
+}
